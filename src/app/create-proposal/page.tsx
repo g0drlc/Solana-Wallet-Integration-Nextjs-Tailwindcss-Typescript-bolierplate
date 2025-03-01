@@ -5,11 +5,10 @@ import ProposalPage from "@/components/proposal/ProposalPage";
 import ViewProposal from "@/components/proposal/ViewProposal";
 import Image from "next/image";
 
-export default function Home() {
+export default function CreateProposal() {
   return (
-    <main className="flex min-h-screen flex-col  p-24">
+    <main className="flex min-h-screen flex-col  p-24 mt-40">
         <CreateMarket />
     </main>
   );
 }
-

@@ -22,7 +22,7 @@ export default function ProposalPage() {
 
   return (
     <div className="max-w-4xl mx-auto p-6 space-y-6">
-      <nav className="flex justify-between items-center bg-gray-900 text-white p-4 rounded-lg">
+      <nav className="flex justify-between items-center bg-gray-900 text-white p-4 rounded-lg gap-4">
         <h1 className="text-xl font-bold">apebase.fun</h1>
         <div className="flex space-x-4">
           <Link href="/create-proposal" className="hover:underline">Create Proposal</Link>
@@ -33,8 +33,8 @@ export default function ProposalPage() {
           <Link href="/referral" className="hover:underline">Referral</Link>
         </div>
       </nav>
-      <Card className="p-6 shadow-lg rounded-2xl bg-white">
-        <h2 className="text-2xl font-semibold mb-4">Create a Prediction Proposal</h2>
+      {/* <Card className="p-6 shadow-lg rounded-2xl bg-white">
+        <h2 className="text-2xl font-semibold mb-4">Enter market question</h2>
         <Input
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
@@ -54,7 +54,7 @@ export default function ProposalPage() {
         ) : (
           <p className="text-gray-500">No proposals available.</p>
         )}
-      </div>
+      </div> */}
     </div>
   );
 }

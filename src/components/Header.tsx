@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Link from "next/link";
 import ConnectButton from "@/components/ConnectButton";
+import ProposalPage from "./proposal/ProposalPage";
 
 const Header: FC = () => {
   return (
@@ -11,6 +12,8 @@ const Header: FC = () => {
             apebase.fun
           </div>
         </Link>
+        {/* <ConnectButton />s */}
+          <ProposalPage />
         <div className="flex items-center gap-2">
           <ConnectButton />
         </div>

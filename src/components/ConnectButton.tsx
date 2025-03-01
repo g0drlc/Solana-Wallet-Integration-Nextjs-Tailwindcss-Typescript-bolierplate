@@ -9,7 +9,7 @@ const ConnectButton: FC = () => {
   const { setVisible } = useWalletModal();
   const { publicKey, disconnect } = useWallet();
   return (
-    <button className="rounded-lg border-[0.75px] border-primary-300 bg-primary-200 shadow-btn-inner text-primary-100 tracking-[0.32px] py-2 px-2 w-[140px] lg:w-[180px] group relative">
+    <button className="mt-3 rounded-lg border-[0.75px] border-primary-300 bg-primary-200 shadow-btn-inner text-primary-100 tracking-[0.32px] py-2 px-2 w-[140px] lg:w-[180px] group relative">
       {publicKey ? (
         <>
           <div className="flex items-center justify-center text-[12px] lg:text-[16px]">
